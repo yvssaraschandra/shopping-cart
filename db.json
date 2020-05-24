@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "AHALYAA Women's Poly Silk Anarkali Kurta",
+      "description": "AHALYAA Women's Poly Silk Anarkali Kurta",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "price": 1619,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Styleville.in Georgette Skater Dress ",
+      "description": "Styleville.in Georgette Skater Dress ",
+      "availableSizes": ["X", "M", "L"],
+      "price": 789,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "AELOMART Men's Regular Fit T-Shirt",
+      "description": "AELOMART Men's Regular Fit T-Shirt",
+      "availableSizes": ["X", "M", "L"],
+      "price": 449,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "United Colors of Benetton Men's Solid Polo",
+      "description": "United Colors of Benetton Men's Solid Polo",
+      "availableSizes": ["XL"],
+      "price": 491,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Max Men's Regular Fit T-Shirt ",
+      "description": "Max Men's Regular Fit T-Shirt ",
+      "availableSizes": ["X", "L", "XL"],
+      "price": 269,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "AELOMART Men's Regular Fit T-Shirt ",
+      "description": "AELOMART Men's Regular Fit T-Shirt ",
+      "availableSizes": ["XL", "XXL"],
+      "price": 426,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "Harpa Synthetic a-line Dress ",
+      "description": "Harpa Synthetic a-line Dress ",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 839,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Maniac Men's Regular Fit T-Shirt ",
+      "description": "Maniac Men's Regular Fit T-Shirt ",
+      "availableSizes": ["XL"],
+      "style": "Azul escuro",
+      "price": 449,
+      "isFreeShipping": false
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "Campus Sutra Women's Cotton T-Shirt",
+      "description": "Campus Sutra Women's Cotton T-Shirt",
+      "availableSizes": ["L", "XL"],
+      "price": 419,
+      "isFreeShipping": true
+    }
+  ]
+}
