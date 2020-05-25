@@ -11,7 +11,7 @@ class App extends Component {
     this.handleRemoveFromCart = this.handleRemoveFromCart.bind(this);
   }
   componentWillMount(){
-    fetch("http://localhost:8000/products/").then(res => res.json())
+    fetch("https://my-json-server.typicode.com/Surya0550/db/products/").then(res => res.json())
     .then(data => this.setState({
       products : data,
       filteredProducts: data
