@@ -24,9 +24,9 @@ export default class Basket extends Component {
 
                                     <p>{item.title}</p>
                                 </a>
-                                <b>Quantity : {item.count / 2}</b>
+                                <b>Quantity : {item.count}</b>
                                 <br />
-                                <b>Price : {util.formatCurrency(item.price * (item.count / 2))}</b>
+                                <b>Price : {util.formatCurrency(item.price * (item.count ))}</b>
                                 <br />
                                 <button className="btn btn-primary"
                                     onClick={(e) => this.props.handleRemoveFromCart(e, item)}
@@ -35,11 +35,11 @@ export default class Basket extends Component {
 
                             </div>
                         )}
-                        <b>Sub Total : {util.formatCurrency(cartItems.reduce((a, c) => a + c.price * (c.count / 2), 0))} </b>
+                        <b>Sub Total : {util.formatCurrency(cartItems.reduce((a, c) => a + c.price * (c.count), 0))} </b>
                         <br />
-                        <b>GST(5%) : {util.formatCurrency(cartItems.reduce((a, c) => (a + c.price * (c.count / 2)) * 0.05, 0))} </b>
+                        <b>GST(5%) : {util.formatCurrency(cartItems.reduce((a, c) => (a + c.price * (c.count)) * 0.05, 0))} </b>
                         <br />
-                        <b>Total : {util.formatCurrency(cartItems.reduce((a, c) => a + c.price * (c.count / 2) + (a + c.price * (c.count / 2)) * 0.05, 0))} </b>
+                        <b>Total : {util.formatCurrency(cartItems.reduce((a, c) => a + c.price * (c.count) + (a + c.price * (c.count)) * 0.05, 0))} </b>
                         <br />
                         <br />
                         <button className="btn btn-primary" onClick={() => alert("Checkout needs to be implemented")}>Checkout</button>
