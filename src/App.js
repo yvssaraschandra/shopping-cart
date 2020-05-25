@@ -16,9 +16,9 @@ class App extends Component {
       products : data,
       filteredProducts: data
     }));
-    // if(localStorage.getItem('cartItems')){
-    //   this.setState({cartItems: JSON.parse(localStorage.getItem('cartItems'))});
-    // }
+     if(localStorage.getItem('cartItems')){
+       this.setState({cartItems: JSON.parse(localStorage.getItem('cartItems'))});
+     }
   }
   handleAddToCart(e,product){
     this.setState(state => {
